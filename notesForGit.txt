@@ -1,2 +1,22 @@
 set the directory currently looking at:
 Right click gitbash-> propertity-> change start in to the path of the project file.
+
+when do commit, this two setting will be saved with commit
+git config --global user.name "J.C"
+git config --global user.email "sandrinechine@hotmail.com"
+
+initialized empty git repository:
+git init project_name
+cd project_name
+ls
+
+git status  // on main branch.
+            // if file is red, means it's not version control by git
+
+git add .  //add all the files inside. if type 'git status' again, file turn green.
+
+git rm --cached a.txt //let a.txt file not tracked. remove file 
+
+git commit -m "initial commit" //first commit. add .-> commit for add new
+
+git log // find author info
