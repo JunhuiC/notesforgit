@@ -1,0 +1,2 @@
+set the directory currently looking at:
+Right click gitbash-> propertity-> change start in to the path of the project file.
